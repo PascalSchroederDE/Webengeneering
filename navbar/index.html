@@ -1,0 +1,93 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Auktionshaus</title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">                                                                           
+        <script src="https://code.jquery.com/jquery-3.3.1.js"></script> 
+        <script type="text/javascript">
+            $(document).ready(function(){
+                $('.search-icon').click(function(){
+                    $('.login-form,.submitBtn').fadeOut();
+                    
+                    $('.search-form').delay(250).slideToggle();
+                });
+                $('.user-icon').click(function(){
+                    $('.search-form').fadeOut();
+                    $('.login-form,.submitBtn').delay(250).slideToggle();
+                });
+                $('.closeSearch').click(function(){
+                    $('.search-form').slideToggle()
+                })
+                $('.closeUser').click(function(){
+                    $('.login-form,.submitBtn').slideToggle()
+                })
+            })
+        </script>
+    </head>
+    <body>
+        <section>
+            <div class="full-width search">
+                <div class="search-form">
+                    <input type="text" name="" placeholder="Suche...">
+                    <div class="closeSearch">
+                        <i class="fa fa-times" aria-hidden="true"></i>
+                    </div>
+                </div>
+                <div class="login-form">
+                    <div class="usrText">
+                        <input type="text" name="" placeholder="Benutzername">
+                    </div>
+                    <div class="pwdText">
+                        <input type="text" name="pwd" placeholder="Passwort">
+                    </div>
+                    <div class="closeUser">
+                        <i class="fa fa-times" aria-hidden="true"></i>
+                    </div>
+                </div>
+                <div class="submitBtn">
+                        <input type="submit" value="Login" id="loginBtn">
+                        <input type="submit" value="Registrieren" id="registerBtn">
+                </div>
+                <div class="full-width navbar">
+                    <h2 class="brand">Auktionshaus</h2>
+                    <ul>
+                        <li><a href="#index.php" class="active">Home</a></li>
+                        <li><a href="#new_article.php">Neue Angebote</a></li>
+                        <li class="dropdown">
+                            <a href="#category.php" class="dropbtn">Kategorien</a>
+                            <div class="dropdown-content">
+                                <a href="#electronic.php">Elektronik</a>
+                                <a href="#home.php">Haushalt</a>
+                                <a href="#clothes.php">Kleidung</a>
+                                <a href="#freetime.php">Sport & Freizeit</a>
+                                <a href="#other.php">Sonstiges</a>
+                            </div>
+                        </li>
+                        <li><a href="#support.php">Support</a></li>
+                        <li><a class="search-icon"><i class="fa fa-search" aria-hidden="true"></i></a></li>
+                        <li><a class="user-icon"><i class="fa fa-unlock" aria-hidden="true"></i></a></li>
+                    </ul>
+                    <div style="clear:both"></div>
+                </div>
+            </div>
+        </section>
+        <div id="page">
+    <p id="line" class="bot">	  
+	  <div id="main">
+	    <h3>Auktionshaus</h3>
+			<a href="auction.php?artid=13"><img src="Wallpaper.jpg">
+			<p><h2></h2></p></a>
+			
+			<a> Siehe diese und weitere Angebote auf dieser Website!</a><br>
+			<a> Melde dich jetzt an, um Angebote zu erstellen und zu kaufen!</a>
+	  </div>
+	  
+	  <div id="footer">
+
+	  </div>
+	  
+	</div>
+    </body>
+</html>

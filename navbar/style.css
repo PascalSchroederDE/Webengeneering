@@ -1,0 +1,274 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.full-width {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.full-width.search {
+    position: relative;
+    background: #000;
+    padding: 0px 100px;
+}
+
+.search-form, .login-form, .submitBtn {
+    display: none;
+}
+
+.search-form, .login-form {
+    position: relative;
+    padding-left: 20px;
+}
+
+.usrText {
+    width: auto;
+    float: left;
+}
+
+.pwdText {
+    padding-left: 250px;
+}
+
+.search-form:before, .usrText:before {
+    position: absolute;
+    color: #fff;
+    font-family: fontAwesome;
+    top: 7px;
+    left: 0;
+}
+
+.pwdText:before {
+    position: absolute;
+    color: #fff;
+    font-family: fontAwesome;
+    top: 7px;
+    left: 230px;
+}
+
+.search-form:before {
+    content: '\f002';
+}
+
+.usrText:before {
+    content: '\f007';
+}
+
+.pwdText:before {
+    content: '\f084';
+}
+
+.search-form input, .login-form input {
+    width: 200px;
+    height: 30px;
+    background: none;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 20px;
+}
+
+.closeSearch, .closeUser {
+    color: #fff;
+    position: absolute;
+    top: 8px;
+    right: 0;
+    cursor: pointer;
+}
+
+.full-width.navbar h2 {
+    background: rgba(0,0,0,.5);
+    padding: 0 100px;
+}
+
+.full-width.navbar .brand {
+    float: left;
+    margin: 0;
+    padding: 10px 0;
+    color: #fff;
+}
+
+.full-width.navbar ul {
+    float: right;
+    margin: 0;
+    display: flex;
+}
+
+.full-width.navbar ul li {
+    list-style: none;
+}
+
+.full-width.navbar ul li a {
+    display: block;
+    color: #fff;
+    padding: 20px;
+    text-decoration: none;
+}
+
+.full-width.navbar ul li a.active, .full-width.navbar ul li a:hover {
+    background: #00bcd4;
+}
+
+.full-width.navbar ul li a.search-icon {
+    background: #f00;
+    cursor: pointer;
+}
+
+input[type=submit] {
+    background-color: #000;
+    border: 1px solid #00bcd4;
+    color: white;
+    width: 220px;
+    height: 30px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;  
+    font-size: 20px;
+}
+
+input[type=submit]:hover {
+    background-color: #000;
+    border: 1px solid #f00;
+}
+
+input[type=submut]:active {
+    border: 1px solid #00bcd4;
+    color: green;
+    background-color: aliceblue;
+}
+
+.dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    border: 1px rgba(0,0,0,0.4);
+    background-color: rgba(0,0,0,0.3);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/*anderer Code*/
+
+/**
+  *
+  * Webeng. Project Lars Dittert, Lucie Hoppenhöft, Tobias Schmidt, Pascal Schröder
+  *
+  * 
+  */
+  
+#main img {
+  width:*;
+  height:200px;
+  border-radius:5px;
+}
+
+#main a:link {
+  font-family:Arial;
+  font-weight:bold;
+  font-size:18px;
+  color:108acb;
+  text-decoration:none;
+}
+
+#main a:visited {
+  text-decoration:none;
+  color:108ACB;
+}
+
+#main a {
+  font-family:Arial;
+  font-size:14;
+}
+/* fertiger Code Ende*/
+
+  
+body{
+  text-align:center;
+  background: url("Wallpaper.jpg");
+}
+
+#page {
+  width:90%;
+  margin:0 auto;
+}
+
+
+#main {
+  min-height: 600px;
+  background: rgba(255, 255, 255, 0.85);
+  border-radius: 5px; 
+}
+
+#main h3 {
+  font-family: Arial;
+  font-size:26;
+  text-align:left;
+  font-weight:bold;
+  padding-top:40px;
+  margin-left:50px;
+}
+
+#statusline p.r a.credit {
+  font-weight:normal;
+  color:108ACB;
+}
+
+#statusline p.r a.credit:after {
+  content:" | ";
+  font-weight:bold;
+  color:black;
+}
+
+#statusline p.r a.credit:link {
+  text-decoration:none;
+}
+
+
+#footer {
+  font-family:Arial;
+  font-size:12px;
+  color:gray;
+  /*margin-bottom:30px;*/
+}
+
+::selection {
+    background: #108ACB;
+    color: #ffffff;
+}
+
+::-moz-selection {
+    background: #108ACB;
+    color: #ffffff;
+}
+

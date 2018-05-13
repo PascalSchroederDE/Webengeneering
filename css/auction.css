@@ -1,0 +1,349 @@
+#main table {
+  width:90%;
+  height:300px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+#main table tr td.pic {
+  width:45%;
+}
+
+#main table tr td.pic img {
+  border-radius:5px;
+  -moz-border-radius:5px;
+  -webkit-border-radius:5px;
+  -o-border-radius:5px;
+  -ms-border-radius:5px;
+}
+
+#main table tr td.pic div.pre {
+  margin-top:5px;
+  margin-left:auto;
+  margin-right:auto;
+  width:45%;
+  height:10%;
+}
+
+#main table tr td.pic div.pre img {
+  width:30%;
+  height:*;
+  border-radius:2px;
+  -moz-border-radius:2px;
+  -webkit-border-radius:2px;
+  -o-border-radius:2px;
+  -ms-border-radius:2px;
+}
+
+#main table tr td.text {
+  width:55%;
+}
+  
+#main h2 {
+  font-family:Arial;
+  font-weight:bold;
+  font-size:20;
+  text-align:left;
+  position:relative;
+} 
+
+#main p {
+  font-family:Arial;
+  position:relative;
+  text-align:left;
+  margin-bottom: 15px;
+}
+
+#main p.condition {
+  font-size:16;
+}
+
+#main p.price {
+  font-size:22;
+}
+
+#main p.seller {
+  color: #00bcd4;
+  font-size:14;
+}
+
+#main p.delivery {
+  font-size:14;
+  top:10px;
+}
+
+#main p.cre_date {
+  font-size:12;
+}
+
+#main table input[type="submit"] {
+  display:inline;
+  position:relative;
+  left:80px;
+  width:300px;
+  height:40px;
+  border:0px;
+  background-color: #00bcd4;
+  font-size:24;
+  color:white;
+  font-weight:bold;
+  border-radius:10px;
+  -moz-border-radius:10px;
+  -webkit-border-radius:10px;
+  -o-border-radius:10px;
+  -ms-border-radius:10px;
+}
+
+
+#main input[type="submit"].switch {
+  display:inline;
+  position:relative;
+  float:left;
+  width:123px;
+  height:23px;
+  border:0px;
+  background-color:#00bcd4;
+  font-size:16px;
+  color:white;
+  font-weight:bold;
+  margin-top:40px;
+  margin-left:5%;
+  border-radius:5px 0px 0px 0px;
+  -moz-border-radius:5px 0px 0px 0px;
+  -webkit-border-radius:5px 0px 0px 0px;
+  -o-border-radius:5px 0px 0px 0px;
+  -ms-border-radius:5px 0px 0px 0px;
+}
+
+#main input[type="submit"]#description.switch {
+  width:120px;
+  height:20px;
+  margin-left:2px;
+  border-radius:0px 5px 0px 0px;
+  -moz-border-radius:0px 5px 0px 0px;
+  -webkit-border-radius:0px 5px 0px 0px;
+  -o-border-radius:0px 5px 0px 0px;
+  -ms-border-radius:0px 5px 0px 0px;
+}
+
+
+#main #inf  {
+  display:block;
+  height:150px;
+  width:85%;
+  margin-left:5%;
+  margin-top:60px;
+  margin-bottom:50px;
+  background: rgb(237,237,237); /* Old browsers */
+  background: -moz-linear-gradient(top,  rgba(237,237,237,1) 3%, rgba(234,234,234,1) 92%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(3%,rgba(237,237,237,1)), color-stop(92%,rgba(234,234,234,1))); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  rgba(237,237,237,1) 3%,rgba(234,234,234,1) 92%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  rgba(237,237,237,1) 3%,rgba(234,234,234,1) 92%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  rgba(237,237,237,1) 3%,rgba(234,234,234,1) 92%); /* IE10+ */
+  background: linear-gradient(to bottom,  rgba(237,237,237,1) 3%,rgba(234,234,234,1) 92%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ededed', endColorstr='#eaeaea',GradientType=0 ); /* IE6-9 */
+  border-radius:0px 5px 5px 5px;
+  -moz-border-radius:0px 5px 5px 5px;
+  -webkit-border-radius:0px 5px 5px 5px;
+  -o-border-radius:0px 5px 5px 5px;
+  -ms-border-radius:0px 5px 5px 5px;
+}
+
+#main #inf table {
+  position:relative;
+  top:20px;
+  height:150px;
+}
+
+
+#main #des {
+  display:none;
+  min_height:150px;
+  width:85%;
+  margin-bottom:30px;
+  margin-left:5%;
+  margin-top:60px;
+  margin-bottom:50px;
+  text-align:left;
+  font-family:Arial;
+  font-size:14;
+  background: rgb(237,237,237); /* Old browsers */
+  background: -moz-linear-gradient(top,  rgba(237,237,237,1) 3%, rgba(234,234,234,1) 92%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(3%,rgba(237,237,237,1)), color-stop(92%,rgba(234,234,234,1))); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  rgba(237,237,237,1) 3%,rgba(234,234,234,1) 92%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  rgba(237,237,237,1) 3%,rgba(234,234,234,1) 92%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  rgba(237,237,237,1) 3%,rgba(234,234,234,1) 92%); /* IE10+ */
+  background: linear-gradient(to bottom,  rgba(237,237,237,1) 3%,rgba(234,234,234,1) 92%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ededed', endColorstr='#eaeaea',GradientType=0 ); /* IE6-9 */
+    border-radius:0px 5px 5px 5px;
+  -moz-border-radius:0px 5px 5px 5px;
+  -webkit-border-radius:0px 5px 5px 5px;
+  -o-border-radius:0px 5px 5px 5px;
+  -ms-border-radius:0px 5px 5px 5px;
+}
+
+@-moz-document url-prefix() {
+#main #des table {
+position:relative;
+right:235px;
+}
+}
+
+#main #des table {
+  top:0px;
+  padding-top:10px;
+  min_height:150px;
+  width:95%;
+  margin-left:5px;
+}
+
+
+#main input {
+  position:relative;
+  font-size:14px;
+  font-family:Arial;
+  width:180px;
+  height:25px;
+  border:0px;
+  border-radius:3px;
+  -moz-border-radius:3px;
+  -webkit-border-radius:3px;
+  -o-border-radius:3px;
+  -ms-border-radius:3px;
+}
+
+#main h3 input {
+  font-size:22;
+  font-weight:bold;
+  width:300px;
+  height:40px;
+}
+
+#main h2 input {
+  font-weight:bold;
+  margin-bottom:25px;
+
+}
+
+#main h2 input#model_edit {
+  margin-top:-50px;
+  margin-left:200px;
+  margin-bottom:25px;
+}
+
+#main p.price input {
+  width:80px;
+  font-size:18;
+  font-weight:bold;
+  margin-bottom:5px;
+}
+
+#main p.delivery input[type="number"] {
+  margin-left:5px;
+  width:50px;
+  height:20px;
+}
+
+#main p.delivery input {
+  margin-left:10px;
+  width:50px;
+}
+
+#main p.price::after {
+  display:inline;
+  content:"€";
+  font-weight:bold;
+}
+
+#main p#time::after  {
+  display:inline;
+  margin-left:3px;
+  content:"Werktage";
+  font-weight:bold;
+}
+
+#main p#costs::after  {
+  display:inline;
+  margin-left:3px;
+  content:"€";
+  font-weight:bold;
+}
+
+#main #des_edit textarea {
+  width:570px;
+  margin-left:150px;
+  margin-bottom:40px;
+  font-size:14px;
+  font-family:Arial;
+  position:relative;
+  border:0px;
+  border-radius:3px;
+  -moz-border-radius:3px;
+  -webkit-border-radius:3px;
+  -o-border-radius:3px;
+  -ms-border-radius:3px;
+}
+
+#main #des_edit h2 {
+  margin-left:200px;
+}
+
+#main input[type="submit"]#change {
+  margin-left:100px;
+  margin-bottom:40px;
+  width:200px;
+  height:30px;
+  border:0px;
+  background-color:108ACB;
+  font-size:20;
+  color:white;
+  font-weight:bold;
+  border-radius:10px;
+  -moz-border-radius:10px;
+  -webkit-border-radius:10px;
+  -o-border-radius:10px;
+  -ms-border-radius:10px;
+}
+
+#main select {
+  font-size:16px;
+  font-family:Arial;
+  width:150px;
+  height:25px;
+  border:0px;
+  border-radius:3px;
+  -moz-border-radius:3px;
+  -webkit-border-radius:3px;
+  -o-border-radius:3px;
+  -ms-border-radius:3px;
+}
+
+#main img.edit {
+  width:*;
+  height:25px;
+  float:right;
+  margin-top:15px;
+  margin-right:15px;
+  margin-left:-5px;
+}
+
+#main button {
+  background: -moz-linear-gradient(top,  rgba(255,255,255,0) 0%, rgba(255,255,255,0) 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0)), color-stop(100%,rgba(255,255,255,0))); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(255,255,255,0) 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(255,255,255,0) 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(255,255,255,0) 100%); /* IE10+ */
+  background: linear-gradient(to bottom,  rgba(255,255,255,0) 0%,rgba(255,255,255,0) 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#00ffffff',GradientType=0 ); /* IE6-9 */
+  border:0px;
+  float:right;
+  height:40px;
+}
+
+#main button:focus {
+  outline:0;
+}
+
+#main #edit_main {
+  display:none;
+}

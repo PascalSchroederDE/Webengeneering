@@ -1,0 +1,88 @@
+/**
+  *
+  * Webeng. Project Lars Dittert, Lucie Hoppenhöft, Tobias Schmidt, Pascal Schröder
+  *
+  * 
+  */
+  
+p.get_credits {
+  margin-top:50px;
+}
+
+p.get_credits a{
+  font-weight:bold;
+  text-align:center;
+  font-size:50;
+}
+
+p.get_credits input {
+  font-size:40px;
+  font-family:Arial;
+  margin-right:15px;
+  margin-left:15px;
+  width:100px;
+  text-align:center;
+  height:50px;
+  border:0px;
+  border-radius:3px;
+}
+
+#main p.credits_amount {
+  margin-top:30px;
+  text-align:left;
+  margin-left:115px;
+}
+
+#main p.credits_amount a{
+  font-size:22;
+  font-family:Arial;
+  font-weight:bold;
+  color:black;
+}
+
+#main p.credits_amount select  {
+  font-size:14px;
+  font-family:Arial;
+  margin-right:30px;
+  width:150px;
+  height:25px;
+  border:0px;
+  border-radius:3px;
+}
+
+#main p.credits_submit {
+  float:center;
+}
+
+#main p.credits_submit input[type="submit"] {
+  margin-top:50px;
+  margin-left:auto;
+  margin-right:auto;
+  width:300px;
+  height:40px;
+  border:0px;
+  background-color:#00bcd4;
+  font-size:24;
+  color:white;
+  font-weight:bold;
+  border-radius:10px;
+}
+
+#main p.foot {
+  margin-top:30px;
+}
+
+#main p.foot a {
+  font-family:Arial;
+  font-size:16;
+  font-weight:bold;
+}
+
+#main p.foot a:link {
+  color:#00bcd4;
+  text-decoration:none;
+}
+
+#main p.foot a:visited {
+  color:#00bcd4;
+}

@@ -1,0 +1,171 @@
+#main {
+	width: 900px;
+}
+#main h2 {
+  position:relative;
+  font-family: Arial;
+  font-size:20;
+  text-align:left;
+  font-weight:bold;
+}
+
+#main h1 {
+  position:relative;
+  font-family: Arial;
+  font-size:16;
+  text-align:left;
+  font-weight:bold;
+}
+
+#main h1 a.left{
+  position:absolute;
+  left:60px;
+}
+
+ #main h2 a.left{
+  position:absolute;
+  left:60px;
+}
+
+#main h1 a.right{
+  position:absolute;
+  left:475px;
+}
+
+#main h2 a.right  {
+  position:absolute;
+  left:475px;
+}
+
+#main h2.title {
+  top:20px;
+  left:60px;
+  padding-bottom:40px;
+}
+
+#main h2.mainly{
+}
+
+#main h2.description {
+   left:60px;
+   padding-top:40px;
+}
+
+
+#main h1.delivery {
+  padding-top:40px;
+}
+
+#main h1.product {
+  padding-top:40px;
+}
+
+#main h1.producer {
+  padding-top:40px;
+}
+
+
+#main input {
+  font-size:14px;
+  font-family:Arial;
+  position:relative;
+  left:200px;
+  margin-right:240px;
+  height:25px;
+  border:0px;
+  border-radius:3px;
+  -moz-border-radius:3px;
+  -webkit-border-radius:3px;
+  -o-border-radius:3px;
+  -ms-border-radius:3px;
+}
+
+#main select {
+  font-size:16px;
+  font-family:Arial;
+  position:relative;
+  left:200px;
+  margin-right:240px;
+  width:174.4px;
+  height:30px;
+  border:0px;
+  border-radius:3px;
+  -moz-border-radius:3px;
+  -webkit-border-radius:3px;
+  -o-border-radius:3px;
+  -ms-border-radius:3px;
+}
+
+#main select[name="condition"] {
+  font-size:14px;
+  height:25px;
+}
+
+#main input.h2 {
+  font-size:16px;
+  height:30px;
+}
+
+#main input.title {
+  font-size:18px;
+  font-weight:bold;
+  height:35px;
+  width:270px;
+  left:78px;
+}
+
+#main input[type="number"] {
+  width:100px;
+  margin-right:320px;
+}
+
+#main a.euro {
+  margin-left:-110px;
+  margin-right:101px;
+}
+
+#main input[name="delivery_time"] {
+  width:100px;
+  font-weight:normal;
+  margin-right:210px;
+}
+
+#main a.werktage {
+  font-weight:normal;
+}
+
+#main textarea {
+  resize: none;
+  width:570px;
+  top:-40px;
+  left:210px;
+  font-size:14px;
+  font-family:Arial;
+  position:relative;
+  margin-right:240px;
+  border:0px;
+  border-radius:3px;
+  -moz-border-radius:3px;
+  -webkit-border-radius:3px;
+  -o-border-radius:3px;
+  -ms-border-radius:3px;
+}
+
+
+#main input[type="submit"] {
+  position:relative;
+  left: 20%;
+  margin-bottom:30px;
+  width: 300px;
+  height: 40px;
+  border:0px;
+  background-color: #00bcd4;
+  font-size:24;
+  color:white;
+  font-weight:bold;
+  border-radius:5px;
+  -moz-border-radius:5px;
+  -webkit-border-radius:5px;
+  -o-border-radius:5px;
+  -ms-border-radius:5px;
+}

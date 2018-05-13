@@ -1,0 +1,78 @@
+/**
+  *
+  * Webeng. Project Lars Dittert, Lucie Hoppenhöft, Tobias Schmidt, Pascal Schröder
+  *
+  * 
+  */
+form .preview {
+	display: none;
+}
+#preview {
+  padding: 5px;
+  margin-top: 20px;
+}
+
+#preview:hover {
+  color: deepskyblue;
+}
+
+#preview #img {
+  height: 120px;
+  width: 200px;
+  margin-left: 20px;
+  border-radius: 3px;
+  float:left;
+  padding-right:10px;
+}
+#preview #img img {
+  max-height: 120px;
+  max-width: 200px;
+  float:center;
+}
+
+#preview p {
+  font-family:Arial;
+  font-size:16;
+  text-align:left;
+  margin-top: 0px;
+  margin-bottom:0px;
+  margin-right:10px;
+}
+
+#preview p.condition{
+  margin-top: 0px;
+}
+
+#preview p.subtext {
+  text-align:right;
+}
+
+h3 {
+	margin-bottom: 50px;
+}
+
+#preview h2 {
+  font-family:Arial;
+  font-size:22;
+  font-weight:bold;
+  text-align:left;
+  margin-bottom: 6px;
+}
+
+#preview h1 {
+  text-align:right;
+  font-family:Arial;
+  font-size:22;
+  font-weight:bold;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-right: 10px;
+}
+
+.cattext {
+  display: flex;
+  flex-direction: column;
+  align-content: center;    
+  justify-content: center;
+  text-align: left;
+}

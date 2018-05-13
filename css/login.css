@@ -1,0 +1,59 @@
+/**
+  *
+  * Webeng. Project Lars Dittert, Lucie Hoppenhöft, Tobias Schmidt, Pascal Schröder
+  *
+  * 
+  */
+
+#statusline.login input {
+  position: absolute;
+  top:3px;
+  width:100px;
+  height:20px;
+  border:0px;
+  border-radius:3px;
+}
+
+#statusline.login input.username {
+  border:1px solid #108ACB;
+  right: 395px;
+}
+
+#statusline.login input.password {
+  border:1px solid #108ACB;
+  right: 265px;
+}
+
+#statusline.login input.logbut {
+  right: 160px;
+  width:75px;
+  background-color:108ACB;
+  color:white;
+  font-weight:bold;
+  border-radius:5px;
+}
+
+#statusline input.logbut:hover {
+  background-color:0F7CB6;
+}
+
+#statusline input.logbut:active {
+  background-color:0F6EA1;
+}
+
+#statusline input.register {
+  right: 30px;
+  width:100px;
+  background-color:108ACB;
+  color:white;
+  font-weight:bold;
+  border-radius:5px;
+}
+
+#statusline input.register:hover {
+  background-color:0F7CB6;
+}
+
+#statusline input.register:active {
+  background-color:0F6EA1;
+}

@@ -1,0 +1,30 @@
+/**
+  *
+  * Webeng. Project Lars Dittert, Lucie Hoppenhöft, Tobias Schmidt, Pascal Schröder
+  *
+  * 
+  */
+  
+#main img {
+  width:*;
+  height:200px;
+  border-radius:5px;
+}
+
+#main a:link {
+  font-family:Arial;
+  font-weight:bold;
+  font-size:18px;
+  color: #108acb;
+  text-decoration:none;
+}
+
+#main a:visited {
+  text-decoration:none;
+  color: #108ACB;
+}
+
+#main a {
+  font-family:Arial;
+  font-size:14;
+}

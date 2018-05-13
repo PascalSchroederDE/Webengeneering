@@ -1,0 +1,173 @@
+//**
+  *
+  * Webeng. Project Lars Dittert, Lucie Hoppenhöft, Tobias Schmidt, Pascal Schröder
+  *
+  * 
+  */
+  
+table {
+  width:80%;
+  margin-left:10%;
+  margin-right:10%;
+  margin-top:20px;
+}
+
+p {
+    margin-left: 50px;
+}
+
+table tr {
+  height:100%;
+}
+
+table tr td {
+  width:50%;
+}
+
+table tr td p {
+  font-family:Arial;
+  font-size:18;
+}
+
+#main input[type="submit"] {
+  margin-top:50px;
+  width:300px;
+  height:40px;
+  border:0px;
+  background-color:#00bcd4;
+  font-size:24;
+  color:white;
+  font-weight:bold;
+  border-radius:10px;
+  /**/
+}
+
+#main table.address {
+  width:90%;
+  margin-left:5%;
+  font-family:Arial;
+  font-size:20;
+}
+
+#main table.address tr {
+  height:20px;
+  width:100%;
+  text-align:center;
+}
+
+#main table.address tr th {
+  font-weight:bold;
+}
+
+#address input[type="submit"]#add_address {
+  margin-top:50px;
+  margin-bottom:50px;
+  width:150px;
+  height:30px;
+  border:0px;
+  background-color:#00bcd4;
+  font-size:18;
+  color:white;
+  font-weight:bold;
+  border-radius:10px;
+  /**/
+}
+
+#add_address input {
+  margin-top:0px;
+  margin-bottom:0px;
+  margin-left:25px;
+  margin-right:25px;
+  font-size:14px;
+  font-family:Arial;
+  width:140px;
+  height:25px;
+  border:0px;
+  border-radius:3px;
+}
+
+#add_address input[type="submit"] {
+  margin-top:50px;
+  margin-bottom:50px;
+  width:200px;
+  height:35px;
+  border:0px;
+  background-color:#00bcd4;
+  font-size:22;
+  color:white;
+  font-weight:bold;
+  border-radius:10px;
+}
+
+a.admin {
+  color:#00bcd4;
+  font-family:Arial;
+  font-size:14;
+  font-weight:bold;
+  float:right;
+  margin-right:20px;
+  margin-bottom:-14px;
+}
+
+a.admin:link {
+  text-decoration:none;
+  color:#00bcd4;
+}
+
+a.admin:visited {
+  text-decoration:none;
+  color:#00bcd4;
+}
+
+p#cpw {
+  margin-top:30px;
+  margin-left:50 px;
+  text-align:left;
+  color:#00bcd4;
+  size:14;
+  font-family:Arial;
+}
+
+#change_pw {
+  display:none;
+}
+
+#change_pw input {
+  margin-top:10px;
+  margin-bottom:0px;
+  margin-left:25px;
+  margin-right:25px;
+  font-size:14px;
+  font-family:Arial;
+  width:140px;
+  height:25px;
+  border:0px;
+  border-radius:3px;
+}
+
+#change_pw input[type="submit"] {
+  margin-top:10px;
+  margin-bottom:50px;
+  width:160px;
+  height:25px;
+  border:0px;
+  background-color:#00bcd4;
+  font-size:20;
+  color:white;
+  font-weight:bold;
+  border-radius:10px;
+}
+
+
+input[type="submit"]#def {
+  position:relative;
+  bottom:30px;
+  width:100px;
+  height:20px;
+  border:0px;
+  background-color:#00bcd4;
+  font-size:14;
+  color:white;
+  font-weight:bold;
+  border-radius:10px;
+}

@@ -1,0 +1,26 @@
+/**
+  *
+  * Webeng. Project Lars Dittert, Lucie Hoppenhöft, Tobias Schmidt, Pascal Schröder
+  *
+  * 
+  */
+  
+.login-error input {
+  font-size: 14px;
+  font-family: Arial;
+  margin: 5px;
+  padding: 5px;
+  float: right;
+  width: 150px;
+  height: 25px;
+  border: 0px;
+  border-radius: 3px;
+}
+
+
+.login-error {
+    width: 160px;
+    margin: 70px auto;
+    display: flex;
+    flex-direction: column;
+}
